@@ -35,11 +35,11 @@ def process_camera_snapshot():
     return None
 
 def main():
-    # image = Image.open('D:\pythonProject1\MediTi.png')
-    # st.image(
-    #         image,
-    #         width=400, # Manually Adjust the width of the image as per requirement
-    #     )
+    image = Image.open('D:\pythonProject1\MediTi.png')
+    st.image(
+            image,
+            width=400, # Manually Adjust the width of the image as per requirement
+        )
 
     st.title("Image Comparing Streamlit App")
 
