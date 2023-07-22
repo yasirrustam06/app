@@ -154,7 +154,7 @@ def process_uploaded_image(uploaded_file):
     return None
 
 def process_camera_snapshot():
-    video_capture = cv2.VideoCapture(0 + cv2.CAP_DSHOW)
+    video_capture = cv2.VideoCapture(0)
     while video_capture.isOpened():
         ret, frame = video_capture.read()
         if not ret:
